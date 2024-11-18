@@ -1,0 +1,35 @@
+body {
+    width: 20rem;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin: 1rem 0;
+  }
+  
+  li {
+    padding: 0.25rem;
+  }
+  li:nth-child(odd) {
+    background: #80808030;
+  }
+  li:nth-child(even) {
+    background: #ffffff;
+  }
+
+  li:hover {
+    background-color: rgb(1, 105, 105);
+    font-size: 18px;
+  }
+  
+  h3,
+  p {
+    margin: 0;
+  }
+
+  button:hover{
+    background-color: aliceblue;
+    font-size: 18px;
+  }
+
